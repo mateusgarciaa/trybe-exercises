@@ -124,3 +124,39 @@ for (let index = 0; index < numbers4.length; index += 1) {
 }
 console.log(newNumbers)
 
+
+//--------------------------Exercicio Formar geometricas-------
+
+
+let tamanho = 5;
+let symbol = '+';
+let inputLine = '';
+let inputPosition = tamanho;
+
+for (let index = 0; index < tamanho; index+= 1) {
+  console.log(inputLine);
+  inputLine = inputLine + symbol;
+  
+}
+
+
+for (let index = 0; index < tamanho; index+= 1) {
+  for (let index = 0; index < tamanho; index+=1) {
+    if (index < inputPosition){
+      inputLine = inputLine + "";
+    } else{
+      inputLine = inputLine + symbol;
+    }
+    
+    
+  }
+  console.log(inputLine);
+  inputLine = inputLine + symbol;
+  
+}
+
+let n = 5;
+let meioPiramide = (n + 1) / 2
+
+
+
