@@ -56,7 +56,7 @@ for (let index = 1; index < 11; index+=1) {
 
 thirdSection.appendChild(list);
 
-//Adicione 3 tags h3, todas sendo filhas do main criado no passo 2
+//Adicione 3 tags h3, todas sendo filhas do main criado no passo 2"
 const textFinal = document.createElement('h3');
 
 for (let index = 0; index < 5; index+=1) {
