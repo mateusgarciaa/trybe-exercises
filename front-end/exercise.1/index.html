@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Validador de Campos</title>
+</head>
+<body>
+  <div class="container">
+    <form id="validation-form">
+      <div>
+        <label for="input-text">Texto a ser validado:</label>
+        <input type="text" id="input-text" />
+      </div>
+      <div>
+        <label for="validation-type">Selecione a validação:</label>
+        <select id="validation-type">
+          <option value="isEmail">E-mail</option>
+          <option value="isURL">URL</option>
+          <option value="isNumeric">Numérico</option>
+          <option value="isAlpha">Alfabético</option>
+          <option value="isMobilePhone">Celular</option>
+        </select>
+      </div>
+      <button type="submit">Validar</button>
+    </form>
+    <p id="validation-result"></p>
+  </div>  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
