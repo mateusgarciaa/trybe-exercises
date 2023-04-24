@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Descubra qual Super é você</title>
+</head>
+<body>
+  <div class="container">
+    <h1>SuperHeroes</h1>
+
+    <!-- Nosso card contendo as informações -->
+    <div class="card">
+      <img id="image">
+      <p id="name">- Descubra qual Super Herói é você- </p>
+      <div class="info">
+        <p id="abilities"></p>
+        <p id="appearance"></p>
+      </div>
+    </div>
+    <button id="button">Sortear</button>
+  </div>
+  <div id="loading" style="display: none;">
+    <div class="spinner"></div>
+    Carregando...
+  </div>
+  
+  <!-- Lembre-se de colocar o type="module" -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
