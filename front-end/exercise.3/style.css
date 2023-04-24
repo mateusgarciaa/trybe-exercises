@@ -1,0 +1,129 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+background-color:#282C33;
+position: relative;
+width: 1512px;
+height: 982px;
+}
+
+#title {
+position: absolute;
+width: 517px;
+height: 74px;
+left: 306px;
+top: 63px;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 79px;
+color: #f8f5f5;
+}
+
+#title2 {
+    color: #95EBA8;
+}
+
+#digit-coin {
+position: absolute;
+width: 111px;
+height: 15px;
+left: 307px;
+top: 165px;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+
+}
+
+#coin-input {
+position: absolute;
+width: 171px;
+height: 48px;
+left: 306px;
+top: 185px;
+background: rgba(217, 217, 217, 0.1);
+border-radius: 10px;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #898989;
+padding: 15px;
+}   
+
+#search-button {
+box-sizing: border-box;
+position: absolute;
+width: 171px;
+height: 48px;
+left: 491px;
+top: 185px;
+background: #96EB95;
+border: 1px solid #96EB95;
+border-radius: 10px;
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: #373737;
+}
+
+#center-content {
+position: absolute;
+width: 900px;
+height: 583px;
+left: 306px;
+top: 290px;
+background: rgba(255, 255, 255, 0.06);
+border-radius: 20px;
+}
+
+.row {
+display: flex;
+margin-bottom: 20px;
+margin-top: 25px;
+}
+
+.rectangle {
+width: 150px;
+height: 44px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+text-align: center;
+
+}
+
+.currency-name {
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.currency-value {
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+color: #FFE713;
+}
+
+
+
+
+
+
